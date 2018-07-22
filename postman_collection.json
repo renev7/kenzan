@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "fdfdc030-b2c7-4540-a37d-82a649331bb9",
+		"_postman_id": "b7f933aa-4a41-4691-afa5-c6a4e2612d21",
 		"name": "Renes_Code_Challenge",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -13,7 +13,10 @@
 				},
 				"method": "GET",
 				"header": [],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "http://localhost:3000/api/v1/employee",
 					"protocol": "http",
@@ -30,12 +33,15 @@
 			},
 			"response": [
 				{
-					"id": "fc541012-5ab0-4538-bb8c-922b7e0fa87d",
+					"id": "d6824da5-63e3-4cca-915e-636dda725578",
 					"name": "Get all employees",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "http://localhost:3000/api/v1/employee",
 							"protocol": "http",
@@ -110,7 +116,10 @@
 				},
 				"method": "GET",
 				"header": [],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "http://localhost:3000/api/v1/employee/1",
 					"protocol": "http",
@@ -147,31 +156,26 @@
 						{
 							"key": "employeeFirstName",
 							"value": "John",
-							"description": "",
 							"type": "text"
 						},
 						{
 							"key": "employeeMiddleInitial",
 							"value": "W",
-							"description": "",
 							"type": "text"
 						},
 						{
 							"key": "employeeLastName",
 							"value": "Doe",
-							"description": "",
 							"type": "text"
 						},
 						{
 							"key": "employeeDateOfBirth",
 							"value": "20000101",
-							"description": "",
 							"type": "text"
 						},
 						{
 							"key": "employeeDateOfEmployment",
 							"value": "20100101",
-							"description": "",
 							"type": "text"
 						}
 					]
@@ -211,31 +215,26 @@
 						{
 							"key": "employeeFirstName",
 							"value": "Bill",
-							"description": "",
 							"type": "text"
 						},
 						{
 							"key": "employeeMiddleInitial",
 							"value": "W",
-							"description": "",
 							"type": "text"
 						},
 						{
 							"key": "employeeLastName",
 							"value": "Doe",
-							"description": "",
 							"type": "text"
 						},
 						{
 							"key": "employeeDateOfBirth",
 							"value": "20000101",
-							"description": "",
 							"type": "text"
 						},
 						{
 							"key": "employeeDateOfEmployment",
 							"value": "20010101",
-							"description": "",
 							"type": "text"
 						}
 					]
@@ -282,7 +281,10 @@
 						"value": "application/x-www-form-urlencoded"
 					}
 				],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "http://localhost:3000/api/v1/employee/3",
 					"protocol": "http",
@@ -295,6 +297,26 @@
 						"v1",
 						"employee",
 						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Health check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/healthz",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"healthz"
 					]
 				}
 			},
