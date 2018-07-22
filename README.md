@@ -28,3 +28,5 @@ By default this API runs in port 3000.
 # Use API
 1. If you have Postman installed, import `postman_collection.json` (change hostname as needed).
 2. If you have cURL installed, open `curl-examples.txt` and execute API calls examples in your terminal (change hostname as needed).
+
+TODO: Add Swagger
