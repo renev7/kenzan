@@ -14,6 +14,7 @@ This API is pre-configured to connect to a localhost DB. If you wish to connect 
 1. Clone this repo
 2. Install modules `npm i`
 3. Run the app `node start`
+4. Test api: http://localhost:3000/healthz
 
 By default this API runs in port 3000.
 
@@ -22,6 +23,7 @@ By default this API runs in port 3000.
 2. Under `config/db.json`, if you DB is running locally change host to your localhost hostname. If it's running somewhere else, change it to the corresponding hostname.
 3. Build image `docker build -t kenzan .`
 4. Run image `docker run --name kenzan_code_challenge -d -p 3000:3000 kenzan`
+5. Test api: http://localhost:3000/healthz
 
 # Use API
 1. If you have Postman installed, import `postman_collection.json` (change hostname as needed).
