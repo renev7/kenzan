@@ -20,6 +20,10 @@ app.use(cors());
 var employee = require("./route/employee.js");
 app.use("/api/v1/employee", employee);
 
+app.get('/healthz', function(req, res) {
+  res.json({ status: 'OK' });
+});
+
 var PORT = process.env.PORT || 3000;
 
 app.listen(PORT, function() {
