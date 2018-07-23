@@ -30,3 +30,6 @@ By default this API runs in port 3000.
 2. If you have cURL installed, open `curl-examples.txt` and execute API calls examples in your terminal (change hostname as needed).
 
 TODO: Add Swagger
+
+# NOTES
+This excersie is based in my very own API Generator. Feel free to try it [here](https://github.com/renev7/pjd-backend).
