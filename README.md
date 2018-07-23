@@ -32,4 +32,4 @@ By default this API runs in port 3000.
 TODO: Add Swagger
 
 # NOTES
-This excersie is based and adapted usgin my very own (work in progress) API Generator. Feel free to try it [here](https://github.com/renev7/pjd-backend).
+This excersie is based and adapted usgin my very own API Generator (work in progress). Feel free to try it [here](https://github.com/renev7/pjd-backend).
